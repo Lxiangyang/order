@@ -38,6 +38,8 @@ cd $TOMCAT_APP_PATH/webapps/
 mv order.war ROOT.war
 
 # 启动Tomcat
+source /etc/profile
+
 cd $TOMCAT_APP_PATH/
 sh bin/startup.sh
 
